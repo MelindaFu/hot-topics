@@ -1,0 +1,244 @@
+/*@author: Xuechen Fu
+.My-Color-Theme-1-hex { color: #5274FF; }
+.My-Color-Theme-2-hex { color: #B1E8D4; }
+.My-Color-Theme-3-hex { color: #FAFA8F; }
+.My-Color-Theme-4-hex { color: #E6B95C; }
+.My-Color-Theme-5-hex { color: #FABFB9; }
+
+Title:
+    font-family: 'Coda Caption', sans-serif;
+
+body:
+    font-family: 'DM Sans', sans-serif;
+*/
+
+/*********************** Standard *******************************************/
+html {
+    line-height: 1.5;
+    font-size: 0.75rem;
+}
+
+body {
+    background-color: #FAFA8F;
+    color: rgba(0,0,0,1);
+}
+
+img {
+    width: 100%;
+}
+
+/*********************** Nav ********************************************/
+.navbar{
+    background-image: url("../img/nav_bg.jpg");
+    background-size: cover;
+}
+
+.navbar-nav{
+    font-family: 'Coda Caption', sans-serif;
+}
+
+#logo{
+    width: 20%;
+    margin-left: 40%;
+}
+
+figure img{
+    margin:0 auto;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+/*********************** masthead ********************************************/
+
+.masthead{
+    background-image: url(../img/slogan_bg.jpg);
+    background-size: cover;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding: 2rem;
+    
+    color: #E6B95C;
+    text-align: center;
+}
+
+/*********************** HOME Main Content ********************************************/
+h1{
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+
+}
+
+h2,home p{
+    font-family: 'DM Sans', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+figure{
+    padding: 0.75rem;
+}
+
+/*********************** PORTFOLIO Main Content ********************************************/
+h3{
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+}
+
+/*********************** footer *******************************************/
+
+.media {
+	display: flex;
+	padding-top: 1rem;
+}
+
+.media div:nth-child(1) img, .media div:nth-child(2) img,.media div:nth-child(3) img{
+	width: 40px;
+	height: 40px;
+	margin-right: 1.5rem;
+    margin-left: 1.75rem;
+
+}
+
+#yt{
+    height: 40px;
+    width: auto;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media screen and (min-width: 35rem) {
+    html {
+        font-size: 1rem;
+    }
+    
+    .main {
+        max-width: 60rem;
+        padding: 1.2rem;
+        margin: 0 auto;
+    }
+    
+    figure img {
+            width: 40%;
+            float: left;
+            margin: 0 1rem 1rem 0;
+            box-shadow: 5px 3px 3px #959897; 
+        }
+    
+    figcaption{
+        display:none;
+        text-align:left;
+    }
+    
+    .home p {
+        margin-top: -2rem;
+    }
+
+    .home{
+        background-color: #B1E8D4;
+        padding: 1rem;
+        box-shadow: 5px 3px 3px #E6B95C; 
+    }
+    
+    .grid-container{
+		display: grid;
+        grid-template-columns: 3fr 3fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+	    grid-column-gap: 10px;
+	    grid-row-gap: 10px;
+
+	}
+    
+    .grid-container figcaption{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    html {
+        font-size: 1.25rem;
+    }
+    
+    figure img {
+        width: 40%;
+        float: left;
+        margin: 0 1rem 1rem 0;
+        box-shadow: 5px 3px 3px #959897; 
+    }
+    
+    figcaption{
+        display:none;
+        text-align:left;
+    }
+
+    .home p {
+        margin-top: -2rem;
+    }
+    
+    .home{
+        background-color: #B1E8D4;
+        padding: 1rem;
+        box-shadow: 5px 3px 3px #E6B95C; 
+    }
+    
+    .grid-container{
+		display: grid;
+        	        
+        justify-items: center;
+	    align-items: center;
+	        
+        grid-template-columns: 1fr 1fr 1fr;
+	        
+        grid-template-rows: 1fr 1fr;
+	    grid-column-gap: 20px;
+	    grid-row-gap: 20px;
+
+	}
+    
+    .grid-container figcaption{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
